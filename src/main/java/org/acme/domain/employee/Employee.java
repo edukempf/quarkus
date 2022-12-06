@@ -1,4 +1,4 @@
-package org.acme.domain;
+package org.acme.domain.employee;
 
 public class Employee {
     public Long id;
