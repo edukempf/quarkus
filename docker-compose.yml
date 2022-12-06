@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  mysql-quarkus:
+    image: mysql:8.0
+    container_name: mysql-quarkus
+    environment:
+      - MYSQL_DATABASE=quarkus
+      - MYSQL_ROOT_PASSWORD=quarkus
+      - MYSQL_USER=quarkus
+      - MYSQL_PASSWORD=quarkus
+    ports:
+      - "3306:3306"
