@@ -9,7 +9,7 @@ import javax.transaction.Transactional;
 
 public class PanacheEmployeeRepository implements EmployeeRepository {
     private final String HQL_SELECT_BY_EMAIL =
-    "SELECT employee FROM MySqlEmployee as employee WHERE employee.email = :email";
+    "SELECT employee FROM PanacheEmployee as employee WHERE employee.email = :email";
     @Override
     @Transactional
     public Employee findByEmail(String email) {
