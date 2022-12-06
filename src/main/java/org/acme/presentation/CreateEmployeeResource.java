@@ -1,7 +1,7 @@
 package org.acme.presentation;
 
-import org.acme.domain.employee.CreateEmployeeDTO;
-import org.acme.domain.employee.Employee;
+import org.acme.domain.dto.CreateEmployeeDTO;
+import org.acme.domain.models.Employee;
 import org.acme.main.CreateEmployeeService;
 import org.eclipse.microprofile.openapi.annotations.parameters.RequestBody;
 

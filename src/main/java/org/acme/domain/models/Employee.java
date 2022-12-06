@@ -1,4 +1,4 @@
-package org.acme.domain.employee;
+package org.acme.domain.models;
 
 public class Employee {
     public Long id;

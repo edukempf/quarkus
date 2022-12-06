@@ -1,7 +1,7 @@
-package org.acme.infra;
+package org.acme.infra.panache.entities;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
-import org.acme.domain.employee.Employee;
+import org.acme.domain.models.Employee;
 
 import javax.persistence.*;
 

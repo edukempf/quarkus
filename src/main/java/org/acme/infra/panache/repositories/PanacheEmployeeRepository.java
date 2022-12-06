@@ -1,9 +1,10 @@
-package org.acme.data;
+package org.acme.infra.panache.repositories;
 
 import io.quarkus.panache.common.Parameters;
-import org.acme.domain.employee.CreateEmployeeDTO;
-import org.acme.domain.employee.Employee;
-import org.acme.infra.PanacheEmployee;
+import org.acme.data.interfaces.EmployeeRepository;
+import org.acme.domain.dto.CreateEmployeeDTO;
+import org.acme.domain.models.Employee;
+import org.acme.infra.panache.entities.PanacheEmployee;
 
 import javax.transaction.Transactional;
 

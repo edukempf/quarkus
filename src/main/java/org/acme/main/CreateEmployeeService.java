@@ -1,13 +1,13 @@
 package org.acme.main;
 
-import org.acme.data.BCryptAdapter;
-import org.acme.data.EmployeeRepository;
-import org.acme.data.Encrypter;
-import org.acme.data.PanacheEmployeeRepository;
-import org.acme.domain.employee.CreateEmployee;
-import org.acme.domain.employee.CreateEmployeeDTO;
-import org.acme.domain.employee.CreateEmployeeImpl;
-import org.acme.domain.employee.Employee;
+import org.acme.infra.util.BCryptAdapter;
+import org.acme.data.interfaces.EmployeeRepository;
+import org.acme.data.interfaces.Encrypter;
+import org.acme.infra.panache.repositories.PanacheEmployeeRepository;
+import org.acme.domain.usecases.CreateEmployee;
+import org.acme.domain.dto.CreateEmployeeDTO;
+import org.acme.data.usecases.CreateEmployeeImpl;
+import org.acme.domain.models.Employee;
 
 import javax.inject.Singleton;
 import javax.transaction.Transactional;

@@ -1,4 +1,4 @@
-package org.acme.domain.employee;
+package org.acme.domain.dto;
 
 public class CreateEmployeeDTO {
     public String name;

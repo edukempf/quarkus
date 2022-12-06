@@ -1,11 +1,14 @@
-package org.acme.domain.employee;
+package org.acme.data.usecases;
 
-import org.acme.data.EmployeeRepository;
-import org.acme.data.Encrypter;
+import org.acme.data.interfaces.EmployeeRepository;
+import org.acme.data.interfaces.Encrypter;
+import org.acme.domain.usecases.CreateEmployee;
+import org.acme.domain.dto.CreateEmployeeDTO;
+import org.acme.domain.models.Employee;
 
 import javax.transaction.Transactional;
 
-public class CreateEmployeeImpl implements CreateEmployee{
+public class CreateEmployeeImpl implements CreateEmployee {
     private EmployeeRepository employeeRepository;
     private Encrypter encrypter;
 
